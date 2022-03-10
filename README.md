@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+| _Github Profile Views Counter_  
+| _Github Profile Trophy_          
+| _Github Readme Streak Stats_     
+| _Github Readme Activity Graph_  
+| _Simple icons_                   
+| _Simple Translator_              
