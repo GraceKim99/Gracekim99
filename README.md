@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 ![Gracekim99 GitHub stats](https://github-readme-stats.vercel.app/api?username=Gracekim99&show_icons=true)
 
 
- We aim to implement deteriorated algorithms for presenting answers through deep learning through c.
+ We aim to implement deteriorated algorithms for presenting answers through deep learning through c./%
 In twenty questions, a popular game, the interaction between the questioner and 
 the answer resembles the relationship between the data provider and the deep runner.
  So, inspired by this, we decided to write a function that allows us
