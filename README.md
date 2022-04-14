@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 9조 김은총 최재혁 김성곤 
 
 <!--
 **GraceKim99/Gracekim99** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -16,6 +16,7 @@ Here are some ideas to get you started:
 -->
 ![Gracekim99 GitHub stats](https://github-readme-stats.vercel.app/api?username=Gracekim99&show_icons=true)
 
+ 저희는 간단한 알고리즘을 통해  
 
  We aim to implement deteriorated algorithms for presenting answers through deep learning through c./%
 In twenty questions, a popular game, the interaction between the questioner and 
