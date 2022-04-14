@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void){
+   
+    int  i=0;
+    char *in=new char[100];
+    char *ans = "bicycle"; 
+    char *string[20]={{"not a living ting."},{"It's solid and yielding"},{"It can exercise."},{"It moves by passive"},{"It has a foothold."},{"Not raining"},{"It can have horn."},{"It's expensive"},{"It has basket."},{"It has two legs."},{"It has a brake."},{"It can carry two people."},{"It has gear."},{"It has a wheel."},{"It has a cover"},{"It has many kinds of things."},{"It can painted by any color."},{"It can used by anyone."},{"It has a hole."},{"It's fun."} }; 
+   
+    while(i<20){
+        printf("답을 입력: ");
+        scanf("%s", in);
+        fflush(stdout);
+       
+        if(strcmp(ans,in) == 0){
+            printf("excellent! %d번만에 맞추셨습니다.\n",i+1);
+            break;
+        }
+        else
+            printf("%d. %s\n",i+1, string[i]);
+
+        i++;
+
+        if(i==20)
+            printf("스무고개가 끝이 났습니다. 더이상 힌트는 없습니다.\n");
+
+    }
+
+    return 0;
+}
+
