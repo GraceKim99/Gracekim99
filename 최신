@@ -79,14 +79,14 @@ start: cout <<-------------------------------------------
  else{
      if (inputNum >answerNum){
          cout << "-----------------------------------------
-         cout << "Out of range, please reselect number. << endl;
+         cout << "Up! , please reselect number. << endl;
          cout << "-----------------------------------------
          cout << ":";
          attemptNum++;
      }
      else{
          cout << "-----------------------------------------
-         cout << "Out of range, please reselect number. << endl;
+         cout << "Down! , please reselect number. << endl;
          cout << "-----------------------------------------
          cout << ":";
          attemptNum++;
