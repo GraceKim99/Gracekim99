@@ -12,81 +12,81 @@ int attemptNum = 1;
 int main(){
     srand(time(0));
     cout << "------------------------------------------------
-    cout << "랜덤 수 맞추기 놀이!      제작자: 9조 " << endl;
-    cout << "시작하시려면 1키를, 끝내시려면 2키를 눌러주세요." << endl;
+    cout << "Up and Down , dev : Group 9 " << endl;
+    cout << "Press 1 to start , Press 2 to quit." << endl;
     cout << "------------------------------------------------
     choice: cin >> choice 1;
     if (choice1 ==1){
 start: cout <<-------------------------------------------
-    cout << "난이도를 골라주세요!" << endl;
-    cout << "1. 초급 (1부터 50까지)" << endl;
-    cout << "2. 중급 (1부터 100까지)" << endl;
-    cout << "3. 고급 (1부터 500까지)" << endl;
-    cout << "4. 초고급 (1부터 1000까지)" << endl;
-    cout << "5. 미친 난이도 (1부터 10000까지)" << endl;
-    cout << "6. 하지말것 (1부터 50000까지)" << endl;
-    cout << "7. god (1부터 10000까지)" << endl;
+    cout << "Choice difficulty" << endl;
+    cout << "1. Element (1 to 50)" << endl;
+    cout << "2. Middle (1 to 100)" << endl;
+    cout << "3. High class (1 to 500)" << endl;
+    cout << "4. Very high class (1 to 1000)" << endl;
+    cout << "5. Very very high class (1 to 10000)" << endl;
+    cout << "6. Very very very high class (1 to 50000)" << endl;
+    cout << "7. Expert (1 to 10000)" << endl;
     cout << "--------------------------------------------
     cin >> choice2;
 
     switch(choice2){
         case 1 :
         answerNum = rand()%50+1;
-        cout << "초급(1-50)을 선택하셨습니다." << endl;
+        cout << "Start Element (1 to 50)." << endl;
         break;
         case 2 :
         answerNum = rand()%100+1;
-        cout << "중급(1-100)을 선택하셨습니다." << endl;
+        cout << "Start Middle (1 to 100)." << endl;
         break;
         case 3 :
         answerNum = rand()%500+1;
-        cout << "고급(1-500)을 선택하셨습니다." << endl;
+        cout << "Start High class (1 to 500)." << endl;
         break;
         case 4 :
         answerNum = rand()%1000+1;
-        cout << "초고급(1-1000)을 선택하셨습니다." << endl;
+        cout << "Start Very high class (1 to 1000)." << endl;
         break;
         case 5 :
         answerNum = rand()%10000+1;
-        cout << "미친 난이도(1-10000)을 선택하셨습니다." << endl;
+        cout << "Start Very very high class (1 to 10000)." << endl;
         break;
         case 6 :
-        answerNum = rand()%5000+1;
-        cout << "하지말것(1-50000)을 선택하셨습니다." << endl;
+        answerNum = rand()%50000+1;
+        cout << "Start Very very very high class (1 to 50000)." << endl;
         break;
         case 7 :
-        answerNum = rand()%10000+1;
-        cout << "god(1-100000)을 선택하셨습니다." << endl;
+        answerNum = rand()%100000+1;
+        cout << "Start Expert (1 to 100000)." << endl;
         break;
         default :
         cout << "-------------------------------------------------
-        cout << "잘못된 수입니다. 다시입력해주세요." << endl;
+        cout << "Out of range, please reselect number." << endl;
         cout << "-------------------------------------------------
         goto start1;
     }
  cout << "------------------------------------------
- cout <"이제 시작합니다! 원하는 수를 입력하세요!" << endl;
+ cout <"Start select number" << endl;
  cout << "------------------------------------------
  cout << ":";
  start2: cin >> inputNum;
  if (inputNum == answerNum){
      cout << "------------------------------------------------
-     cout << "와!정답~ " << attemptNum << "번만에 맞추셨어요!" << endl;
-     cout << "다시 하시려면 1키, 끝내시려면 2키를 눌러주세요." << endl;
+     cout << "Corect " << attemptNum << "Time tried" << endl;
+     cout << "Press 1 to retry, Press 2 to quit." << endl;
      cout << "------------------------------------------------
      goto choice;
  }
  else{
      if (inputNum >answerNum){
          cout << "-----------------------------------------
-         cout << "숫자가 너무 큽니다. 더 작은 수를 입력해주세요. << endl;
+         cout << "Out of range, please reselect number. << endl;
          cout << "-----------------------------------------
          cout << ":";
          attemptNum++;
      }
      else{
          cout << "-----------------------------------------
-         cout << "숫자가 너무 작습니다. 더 큰 수를 입력해주세요. << endl;
+         cout << "Out of range, please reselect number. << endl;
          cout << "-----------------------------------------
          cout << ":";
          attemptNum++;
@@ -96,8 +96,8 @@ start: cout <<-------------------------------------------
 else{
     if ( choice1 !=2){
         cout << "-----------------------------------------
-        cout << "잘못된 수입니다. 다시 입력해주세요." << endl;
-        cout << "시작하시려면 1키를, 끝내시려면 2키를 눌러주세요." << endl;
+        cout << "Out of range, please reselect number." << endl;
+        cout << "Press 1 to retry, Press 2 to quit." << endl;
         cout << "-----------------------------------------
         goto choice;
     }
